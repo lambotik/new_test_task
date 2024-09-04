@@ -9,5 +9,5 @@ Test automation framework in Python using Pytest + Selenium.
 Generating test reports in Allure report
 ## To obtain the rights to launch tests, send nickname github profile in telegram [@lambotik](https://t.me/lambotik)
 ___
-* To run test in GitHub Actions click button: [![Run workflows](https://img.shields.io/badge/Run%20workflows-grey)](https://github.com/lambotik/test_task_telegraf/actions/workflows/api.yml) after ckick button [![Run workflows](https://img.shields.io/badge/Run%20workflows-green)](https://github.com/lambotik/test_task_telegraf/actions/workflows/api.yml)
-* To view the current test report, click here: [![Allure Report](https://img.shields.io/badge/Allure%20Report-deployed-orange)](https://lambotik.github.io/test_task_telegraf/)
+* To run test in GitHub Actions click button: [![Run workflows](https://img.shields.io/badge/Run%20workflows-grey)](https://github.com/lambotik/new_test_task/actions/workflows/api.yml) after ckick button [![Run workflows](https://img.shields.io/badge/Run%20workflows-green)](https://github.com/lambotik/new_test_task/actions/workflows/api.yml)
+* To view the current test report, click here: [![Allure Report](https://img.shields.io/badge/Allure%20Report-deployed-orange)](https://lambotik.github.io/new_test_task)
