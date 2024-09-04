@@ -24,6 +24,7 @@ class TestLoginPage:
     @allure.title('test_negative_login')
     def test_negative_login(self, driver):
         page = LoginPage(driver, TestDataLinks.login_page)
+        page.open()
         page.input_login('lambotik')
         page.input_password('lambotik')
         page.click_login_button()
