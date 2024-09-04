@@ -1,11 +1,11 @@
 import allure
 import pytest
 
-from checking import Checking
-from request import API
+from test_api.checking import Checking
+from test_api.request import API
 
 
-@allure.epic('Test Api.')
+@allure.epic('API.')
 class TestApi:
     @allure.suite('GET')
     @allure.title('test_posts_keys')

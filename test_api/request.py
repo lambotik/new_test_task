@@ -1,6 +1,6 @@
 import allure
 
-from http_methods import HttpMethods
+from test_api.http_methods import HttpMethods
 
 
 class API:

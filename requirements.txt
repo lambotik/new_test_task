@@ -4,4 +4,5 @@ pytest==7.4.0
 python-dotenv==1.0.1
 allure-python-commons==2.13.2
 pip==24.0
+selenium==4.18.1
 
