@@ -1,0 +1,277 @@
+{
+  "uid" : "2257c375cc9e7e23",
+  "name" : "test_negative_login",
+  "fullName" : "test_ui.test_ui_page.TestLoginPage#test_negative_login",
+  "historyId" : "54b5c4bfb4eac8a3b161a8f5475079d3",
+  "time" : {
+    "start" : 1725468587336,
+    "stop" : 1725468587827,
+    "duration" : 491
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1725468587053,
+      "stop" : 1725468587336,
+      "duration" : 283
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open page: http://the-internet.herokuapp.com/login",
+      "time" : {
+        "start" : 1725468587336,
+        "stop" : 1725468587518,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Input username.",
+      "time" : {
+        "start" : 1725468587518,
+        "stop" : 1725468587598,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'lambotik'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Input password.",
+      "time" : {
+        "start" : 1725468587599,
+        "stop" : 1725468587660,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'lambotik'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click login button.",
+      "time" : {
+        "start" : 1725468587660,
+        "stop" : 1725468587789,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "element_is_present_and_clickable",
+        "time" : {
+          "start" : 1725468587660,
+          "stop" : 1725468587694,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//button[@class=\"radius\"]')"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get alert message.",
+      "time" : {
+        "start" : 1725468587790,
+        "stop" : 1725468587827,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Alert message is: Your username is invalid!",
+        "time" : {
+          "start" : 1725468587827,
+          "stop" : 1725468587827,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1725468587828,
+      "stop" : 1725468588019,
+      "duration" : 191
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2070a322dd9dbe7a",
+      "name" : "Screenshot 2024-09-04 16:49:47.951972",
+      "source" : "2070a322dd9dbe7a.png",
+      "type" : "image/png",
+      "size" : 61670
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "UI."
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_ui_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1249-733"
+  }, {
+    "name" : "thread",
+    "value" : "2250-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_ui.test_ui_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d7ae369f29a2a2e8",
+        "reportUrl" : "https://lambotik.github.io/new_test_task/8//#testresult/d7ae369f29a2a2e8",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//input[@id=\"username\"]')\nStacktrace:\n#0 0x55edd025f8da <unknown>\n#1 0x55edcff2de50 <unknown>\n#2 0x55edcff7d644 <unknown>\n#3 0x55edcff7d931 <unknown>\n#4 0x55edcffc3534 <unknown>\n#5 0x55edcffa24bd <unknown>\n#6 0x55edcffc09c6 <unknown>\n#7 0x55edcffa2233 <unknown>\n#8 0x55edcff70093 <unknown>\n#9 0x55edcff7109e <unknown>\n#10 0x55edd0226b3b <unknown>\n#11 0x55edd022aaf1 <unknown>\n#12 0x55edd0212705 <unknown>\n#13 0x55edd022b662 <unknown>\n#14 0x55edd01f78df <unknown>\n#15 0x55edd024e6d8 <unknown>\n#16 0x55edd024e8a2 <unknown>\n#17 0x55edd025e6cc <unknown>\n#18 0x7efe7d494ac3 <unknown>",
+        "time" : {
+          "start" : 1725468405927,
+          "stop" : 1725468416168,
+          "duration" : 10241
+        }
+      }, {
+        "uid" : "29713689c61cbf68",
+        "reportUrl" : "https://lambotik.github.io/new_test_task/7//#testresult/29713689c61cbf68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725468211273,
+          "stop" : 1725468211819,
+          "duration" : 546
+        }
+      }, {
+        "uid" : "78672c4c83ad9eb4",
+        "reportUrl" : "https://lambotik.github.io/new_test_task/6//#testresult/78672c4c83ad9eb4",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=128.0.6613.113)\nStacktrace:\n#0 0x55f2279088da <unknown>\n#1 0x55f2275d6e50 <unknown>\n#2 0x55f2275bee20 <unknown>\n#3 0x55f2275beb0d <unknown>\n#4 0x55f2275bcb11 <unknown>\n#5 0x55f2275bd31f <unknown>\n#6 0x55f2275cce3b <unknown>\n#7 0x55f2275e3204 <unknown>\n#8 0x55f2275e874b <unknown>\n#9 0x55f2275bda2e <unknown>\n#10 0x55f2275e3059 <unknown>\n#11 0x55f22766988f <unknown>\n#12 0x55f22764b233 <unknown>\n#13 0x55f227619093 <unknown>\n#14 0x55f22761a09e <unknown>\n#15 0x55f2278cfb3b <unknown>\n#16 0x55f2278d3af1 <unknown>\n#17 0x55f2278bb705 <unknown>\n#18 0x55f2278d4662 <unknown>\n#19 0x55f2278a08df <unknown>\n#20 0x55f2278f76d8 <unknown>\n#21 0x55f2278f78a2 <unknown>\n#22 0x55f2279076cc <unknown>\n#23 0x7f2b2da94ac3 <unknown>",
+        "time" : {
+          "start" : 1725468019215,
+          "stop" : 1725468019215,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b99c0a8a45b9faa3",
+        "reportUrl" : "https://lambotik.github.io/new_test_task/5//#testresult/b99c0a8a45b9faa3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725461888239,
+          "stop" : 1725461888594,
+          "duration" : 355
+        }
+      }, {
+        "uid" : "a25180b63a0a2e5b",
+        "reportUrl" : "https://lambotik.github.io/new_test_task/4//#testresult/a25180b63a0a2e5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725461233694,
+          "stop" : 1725461233992,
+          "duration" : 298
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2257c375cc9e7e23.json",
+  "parameterValues" : [ ]
+}
