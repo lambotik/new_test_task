@@ -1,0 +1,26 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "0e1680fdbc4863eefe450151fc201ac6",
+    "name" : "API.",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 15
+    }
+  }, {
+    "uid" : "d11c02b271100658cce9ab740eb85fb6",
+    "name" : "UI.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

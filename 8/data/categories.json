@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Incorrect status code: 500",
+      "children" : [ {
+        "name" : "test_updating_resource_by_id_1000",
+        "uid" : "4371671b2b59e375",
+        "parentUid" : "db277d22f5ee0d9feb50e7f8cdc2250d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725468346123,
+          "stop" : 1725468346366,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1000" ]
+      }, {
+        "name" : "test_updating_resource_by_id_-1",
+        "uid" : "eb09d045057cf50e",
+        "parentUid" : "db277d22f5ee0d9feb50e7f8cdc2250d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725468346661,
+          "stop" : 1725468346922,
+          "duration" : 261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-1" ]
+      } ],
+      "uid" : "db277d22f5ee0d9feb50e7f8cdc2250d"
+    }, {
+      "name" : "AssertionError: Result is not equal expected value",
+      "children" : [ {
+        "name" : "test_updating_resource_by_id_99",
+        "uid" : "345640c3a587ed4b",
+        "parentUid" : "eac86bbafedf046c6aeabf682ad8bd58",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725468346401,
+          "stop" : 1725468346654,
+          "duration" : 253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'99'" ]
+      } ],
+      "uid" : "eac86bbafedf046c6aeabf682ad8bd58"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//input[@id=\"username\"]')\nStacktrace:\n#0 0x55edd025f8da <unknown>\n#1 0x55edcff2de50 <unknown>\n#2 0x55edcff7d644 <unknown>\n#3 0x55edcff7d931 <unknown>\n#4 0x55edcffc3534 <unknown>\n#5 0x55edcffa24bd <unknown>\n#6 0x55edcffc09c6 <unknown>\n#7 0x55edcffa2233 <unknown>\n#8 0x55edcff70093 <unknown>\n#9 0x55edcff7109e <unknown>\n#10 0x55edd0226b3b <unknown>\n#11 0x55edd022aaf1 <unknown>\n#12 0x55edd0212705 <unknown>\n#13 0x55edd022b662 <unknown>\n#14 0x55edd01f78df <unknown>\n#15 0x55edd024e6d8 <unknown>\n#16 0x55edd024e8a2 <unknown>\n#17 0x55edd025e6cc <unknown>\n#18 0x7efe7d494ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_negative_login",
+        "uid" : "d7ae369f29a2a2e8",
+        "parentUid" : "d0988ab14c8ec8aea8e2eaee5e02bdc0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725468405927,
+          "stop" : 1725468416168,
+          "duration" : 10241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0988ab14c8ec8aea8e2eaee5e02bdc0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
