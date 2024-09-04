@@ -1,0 +1,311 @@
+{
+  "d57affacfe60abe2dae12a181ce8294b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d01215d7a8cd62b",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/4d01215d7a8cd62b",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Some tests should fail due to invalid data.\n\nAssertionError: Incorrect status code: 200",
+      "time" : {
+        "start" : 1725455036429,
+        "stop" : 1725455036712,
+        "duration" : 283
+      }
+    } ]
+  },
+  "190f551dae238774c4fb45e0d7eb1ec9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69dde31dde5091b1",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/69dde31dde5091b1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Result is not equal expected value",
+      "time" : {
+        "start" : 1725455035662,
+        "stop" : 1725455035808,
+        "duration" : 146
+      }
+    } ]
+  },
+  "6c7fb14583f0aa7ea885cd1bbf359823" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8c7ea8ce3475c2f",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/a8c7ea8ce3475c2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725455035218,
+        "stop" : 1725455035345,
+        "duration" : 127
+      }
+    } ]
+  },
+  "f4b38afe28a1e79f9edfea44f02f2e53" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e99c46052f1dc4c3",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/e99c46052f1dc4c3",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Some tests should fail due to invalid data.\n\nAssertionError: Incorrect status code: 200",
+      "time" : {
+        "start" : 1725455036896,
+        "stop" : 1725455037175,
+        "duration" : 279
+      }
+    } ]
+  },
+  "41f2cbccdda12e34259bfa60aa4e5eb3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d295dee12a7828ab",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/d295dee12a7828ab",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Some tests should fail due to invalid data.\n\nAssertionError: Incorrect status code: 200",
+      "time" : {
+        "start" : 1725455036144,
+        "stop" : 1725455036423,
+        "duration" : 279
+      }
+    } ]
+  },
+  "5532d1d9212a7d25c8ffaff9db85594f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b5e5b5467cff831",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/3b5e5b5467cff831",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Incorrect status code: 500",
+      "time" : {
+        "start" : 1725455035511,
+        "stop" : 1725455035634,
+        "duration" : 123
+      }
+    } ]
+  },
+  "4ab849bff24bf6ba33c5b31305482669" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc6f0c715e4ec75e",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/cc6f0c715e4ec75e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725455035014,
+        "stop" : 1725455035217,
+        "duration" : 203
+      }
+    } ]
+  },
+  "dae52e70e7ed20714100dbe935c628e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f0572333ab20655",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/5f0572333ab20655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725455034903,
+        "stop" : 1725455035012,
+        "duration" : 109
+      }
+    } ]
+  },
+  "ec6f4e10ad60a14757887346893696e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13143e721804eeb1",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/13143e721804eeb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725455034842,
+        "stop" : 1725455034901,
+        "duration" : 59
+      }
+    } ]
+  },
+  "0347724c3b91a4c39419e9717968da03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f59a51970852bfda",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/f59a51970852bfda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725455034575,
+        "stop" : 1725455034840,
+        "duration" : 265
+      }
+    } ]
+  },
+  "20f59af0b46181b72bda8dc769b4fddf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf80e7720df540f8",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/cf80e7720df540f8",
+      "status" : "passed",
+      "statusDetails" : "XPASS Some tests should fail due to invalid data.",
+      "time" : {
+        "start" : 1725455037181,
+        "stop" : 1725455037448,
+        "duration" : 267
+      }
+    } ]
+  },
+  "44e75846d3e96c1cfba3baee36d39d3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef402dd314a22412",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/ef402dd314a22412",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Some tests should fail due to invalid data.\n\nAssertionError: Incorrect status code: 200",
+      "time" : {
+        "start" : 1725455035953,
+        "stop" : 1725455036137,
+        "duration" : 184
+      }
+    } ]
+  },
+  "96f237733b2e1a95b5614c9b6079d054" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83f5d0588dbb4d85",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/83f5d0588dbb4d85",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Incorrect status code: 500",
+      "time" : {
+        "start" : 1725455035814,
+        "stop" : 1725455035947,
+        "duration" : 133
+      }
+    } ]
+  },
+  "eb31236b76fb5b15c059dc991c5e5060" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e22479d49d5911cc",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/e22479d49d5911cc",
+      "status" : "passed",
+      "statusDetails" : "XPASS Some tests should fail due to invalid data.",
+      "time" : {
+        "start" : 1725455036718,
+        "stop" : 1725455036894,
+        "duration" : 176
+      }
+    } ]
+  },
+  "123b32cb929292b0e0752e1491403e8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f989b2ae16b2167",
+      "reportUrl" : "https://lambotik.github.io/new_test_task/3//#testresult/9f989b2ae16b2167",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725455035346,
+        "stop" : 1725455035510,
+        "duration" : 164
+      }
+    } ]
+  }
+}

@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "755467b414bdeb7fb49d658acea9ba2eecca262f" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Finish task" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "lambotik1988@gmail.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2024-09-04 16:00:20 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "128.0.6613.84" ],
+  "name" : "CHROME_VERSION"
+}, {
+  "values" : [ "https://lambotik.github.io/new_test_task" ],
+  "name" : "URL"
+} ]

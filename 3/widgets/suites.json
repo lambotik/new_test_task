@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "3060a5b8b69d5e6620f3c23d3ad73f85",
+    "name" : "PUT",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "369851dbe8bad28766261c70be0988d3",
+    "name" : "DELETE",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "8be232b599947b3b060299922f9370cc",
+    "name" : "GET",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f964e508e24286013bfacbb79f21fc96",
+    "name" : "POST",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
