@@ -1,0 +1,372 @@
+{
+  "uid" : "927376f4a834c01a",
+  "name" : "test_delete_resource_by_id_1_and_check_it",
+  "fullName" : "test_api.test_example.TestApi#test_delete_resource",
+  "historyId" : "6b5992297d47e1f5533d2bf905f8eda9",
+  "time" : {
+    "start" : 1725461883804,
+    "stop" : 1725461884137,
+    "duration" : 333
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL Some tests should fail due to invalid data.\n\nAssertionError: Incorrect status code: 200",
+  "statusTrace" : "self = <test_api.test_example.TestApi object at 0x7f3ad482a990>, set_id = 1\n\n    @allure.suite('DELETE')\n    @pytest.mark.parametrize('set_id', (1, 10, 100, 1000, '99', -1))\n    @pytest.mark.xfail(reason=\"Some tests should fail due to invalid data.\")\n    def test_delete_resource(self, set_id):\n        allure.dynamic.title(f'test_delete_resource_by_id_{set_id}_and_check_it')\n        response = API.delete_resource(set_id=set_id)\n        Checking.check_status_code(response, 200)\n        assert response.text == '{}'\n        response = API.get_posts_by_id(set_id)\n>       Checking.check_status_code(response, 404)\n\ntest_api/test_example.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresult = <Response [200]>, status_code = 404\n\n    @staticmethod\n    def check_status_code(result: requests.models.Response, status_code: int):\n        \"\"\"\n        Method check status code\n        :param result: Response\n        :param status_code:\n        \"\"\"\n        with allure.step(f'Assert status code: {status_code} == Response status code: {result.status_code}'):\n>           assert status_code == result.status_code, f'Incorrect status code: {result.status_code}'\nE           AssertionError: Incorrect status code: 200\n\ntest_api/checking.py:16: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL Some tests should fail due to invalid data.\n\nAssertionError: Incorrect status code: 200",
+    "statusTrace" : "self = <test_api.test_example.TestApi object at 0x7f3ad482a990>, set_id = 1\n\n    @allure.suite('DELETE')\n    @pytest.mark.parametrize('set_id', (1, 10, 100, 1000, '99', -1))\n    @pytest.mark.xfail(reason=\"Some tests should fail due to invalid data.\")\n    def test_delete_resource(self, set_id):\n        allure.dynamic.title(f'test_delete_resource_by_id_{set_id}_and_check_it')\n        response = API.delete_resource(set_id=set_id)\n        Checking.check_status_code(response, 200)\n        assert response.text == '{}'\n        response = API.get_posts_by_id(set_id)\n>       Checking.check_status_code(response, 404)\n\ntest_api/test_example.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresult = <Response [200]>, status_code = 404\n\n    @staticmethod\n    def check_status_code(result: requests.models.Response, status_code: int):\n        \"\"\"\n        Method check status code\n        :param result: Response\n        :param status_code:\n        \"\"\"\n        with allure.step(f'Assert status code: {status_code} == Response status code: {result.status_code}'):\n>           assert status_code == result.status_code, f'Incorrect status code: {result.status_code}'\nE           AssertionError: Incorrect status code: 200\n\ntest_api/checking.py:16: AssertionError",
+    "steps" : [ {
+      "name" : "Endpoint: /posts/1",
+      "time" : {
+        "start" : 1725461884090,
+        "stop" : 1725461884090,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Request:",
+      "time" : {
+        "start" : 1725461884090,
+        "stop" : 1725461884090,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Url: https://jsonplaceholder.typicode.com/posts/1",
+        "time" : {
+          "start" : 1725461884090,
+          "stop" : 1725461884090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': ''}",
+        "time" : {
+          "start" : 1725461884090,
+          "stop" : 1725461884090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Body: None",
+        "time" : {
+          "start" : 1725461884090,
+          "stop" : 1725461884090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Response:",
+      "time" : {
+        "start" : 1725461884090,
+        "stop" : 1725461884090,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Status code: 200",
+        "time" : {
+          "start" : 1725461884090,
+          "stop" : 1725461884090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "JSON: {}",
+        "time" : {
+          "start" : 1725461884090,
+          "stop" : 1725461884090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert status code: 200 == Response status code: 200",
+      "time" : {
+        "start" : 1725461884090,
+        "stop" : 1725461884090,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Endpoint: /posts/1",
+      "time" : {
+        "start" : 1725461884137,
+        "stop" : 1725461884137,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Request:",
+      "time" : {
+        "start" : 1725461884137,
+        "stop" : 1725461884137,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Url: https://jsonplaceholder.typicode.com/posts/1",
+        "time" : {
+          "start" : 1725461884137,
+          "stop" : 1725461884137,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': ''}",
+        "time" : {
+          "start" : 1725461884137,
+          "stop" : 1725461884137,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Body: None",
+        "time" : {
+          "start" : 1725461884137,
+          "stop" : 1725461884137,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Response:",
+      "time" : {
+        "start" : 1725461884137,
+        "stop" : 1725461884137,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Status code: 200",
+        "time" : {
+          "start" : 1725461884137,
+          "stop" : 1725461884137,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "JSON: {\n  \"userId\": 1,\n  \"id\": 1,\n  \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\",\n  \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n}",
+        "time" : {
+          "start" : 1725461884137,
+          "stop" : 1725461884137,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert status code: 404 == Response status code: 200",
+      "time" : {
+        "start" : 1725461884137,
+        "stop" : 1725461884137,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Incorrect status code: 200\n",
+      "statusTrace" : "  File \"/home/runner/work/new_test_task/new_test_task/test_api/checking.py\", line 16, in check_status_code\n    assert status_code == result.status_code, f'Incorrect status code: {result.status_code}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "DELETE"
+  }, {
+    "name" : "epic",
+    "value" : "API."
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Some tests should fail due to invalid data.')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "fv-az585-729"
+  }, {
+    "name" : "thread",
+    "value" : "2313-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_api.test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "set_id",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bae63a17b80fbe9a",
+        "reportUrl" : "https://lambotik.github.io/new_test_task/4//#testresult/bae63a17b80fbe9a",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Some tests should fail due to invalid data.\n\nAssertionError: Incorrect status code: 200",
+        "time" : {
+          "start" : 1725461218022,
+          "stop" : 1725461218156,
+          "duration" : 134
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail(reason='Some tests should fail due to invalid data.')" ]
+  },
+  "source" : "927376f4a834c01a.json",
+  "parameterValues" : [ "1" ]
+}

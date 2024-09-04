@@ -1,0 +1,302 @@
+{
+  "uid" : "8bcd82c1f7a70ed2",
+  "name" : "test_positive_login",
+  "fullName" : "test_ui.test_ui_page.TestLoginPage#test_positive_login",
+  "historyId" : "a188c82fb2d757b992d431dbcb827160",
+  "time" : {
+    "start" : 1725461886659,
+    "stop" : 1725461888237,
+    "duration" : 1578
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1725461885587,
+      "stop" : 1725461886658,
+      "duration" : 1071
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open page: http://the-internet.herokuapp.com/login",
+      "time" : {
+        "start" : 1725461886659,
+        "stop" : 1725461887548,
+        "duration" : 889
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Input username.",
+      "time" : {
+        "start" : 1725461887548,
+        "stop" : 1725461887639,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'tomsmith'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Input password.",
+      "time" : {
+        "start" : 1725461887639,
+        "stop" : 1725461887704,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'SuperSecretPassword!'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click login button.",
+      "time" : {
+        "start" : 1725461887704,
+        "stop" : 1725461887947,
+        "duration" : 243
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "element_is_present_and_clickable",
+        "time" : {
+          "start" : 1725461887704,
+          "stop" : 1725461887736,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//button[@class=\"radius\"]')"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get alert message.",
+      "time" : {
+        "start" : 1725461887947,
+        "stop" : 1725461887986,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Alert message is: You logged into a secure area!",
+        "time" : {
+          "start" : 1725461887986,
+          "stop" : 1725461887986,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click logout button.",
+      "time" : {
+        "start" : 1725461887986,
+        "stop" : 1725461888206,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "element_is_present_and_clickable",
+        "time" : {
+          "start" : 1725461887986,
+          "stop" : 1725461888015,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//a[@class=\"button secondary radius\"]')"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get alert message.",
+      "time" : {
+        "start" : 1725461888206,
+        "stop" : 1725461888237,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Alert message is: You logged out of the secure area!",
+        "time" : {
+          "start" : 1725461888237,
+          "stop" : 1725461888237,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1725461888594,
+      "stop" : 1725461888780,
+      "duration" : 186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8e9eed1b20f41fe1",
+      "name" : "Screenshot 2024-09-04 14:58:08.713531",
+      "source" : "8e9eed1b20f41fe1.png",
+      "type" : "image/png",
+      "size" : 61670
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "UI."
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_ui_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az585-729"
+  }, {
+    "name" : "thread",
+    "value" : "2313-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_ui.test_ui_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7957828bcd26a7ec",
+        "reportUrl" : "https://lambotik.github.io/new_test_task/4//#testresult/7957828bcd26a7ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725461231608,
+          "stop" : 1725461233692,
+          "duration" : 2084
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8bcd82c1f7a70ed2.json",
+  "parameterValues" : [ ]
+}
