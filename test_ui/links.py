@@ -4,4 +4,3 @@ class TestDataLinks:
     upload_page = 'http://the-internet.herokuapp.com/upload'
     dropdown_page = 'http://the-internet.herokuapp.com/dropdown'
     javascript_alerts_page = 'http://the-internet.herokuapp.com/javascript_alerts'
-

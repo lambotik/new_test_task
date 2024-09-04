@@ -1,5 +1,3 @@
-import time
-
 import allure
 
 from test_ui.dynamic_loading_page import DynamicLoadingPage

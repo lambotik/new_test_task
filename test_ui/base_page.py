@@ -14,14 +14,6 @@ class BasePage:
         with allure.step(f'Open page: {self.link}'):
             self.driver.get(self.link)
 
-    def switch_to_new_window(self):
-        self.driver.switch_to.window(self.driver.window_handles[1])
-
-    def get_current_url(self):
-        get_url = self.driver.current_url
-        print('Current url: ' + get_url)
-        return get_url
-
     @allure.step('element_is_present_and_clickable')
     def element_is_present_and_clickable(self, locator):
         return (Wait(self.driver, self.timeout).until(
@@ -33,21 +25,9 @@ class BasePage:
         return Wait(self.driver, self.timeout).until(
             ec.visibility_of_element_located(locator), message=f"Can't find element by locator {locator}")
 
-    def elements_are_visible(self, locator):
-        return Wait(self.driver, self.timeout).until(
-            ec.visibility_of_all_elements_located(locator), message=f"Can't find elements by locator {locator}")
-
-    def element_is_not_visible(self, locator):
-        return Wait(self.driver, self.timeout).until(
-            ec.invisibility_of_element_located(locator), message=f"The element located by {locator} is invisible")
-
     def element_is_present(self, locator):
         return Wait(self.driver, self.timeout).until(
             ec.presence_of_element_located(locator), message=f"Can't find element by locator {locator}")
-
-    def elements_are_present(self, locator):
-        return Wait(self.driver, self.timeout).until(
-            ec.presence_of_all_elements_located(locator), message=f"Can't find elements by locator {locator}")
 
     def element_is_clickable(self, locator):
         return Wait(self.driver, self.timeout).until(
@@ -56,14 +36,3 @@ class BasePage:
 
     def go_to_element(self, element):
         return self.driver.execute_script("arguments[0].scrollIntoView({ block: 'center'});", element)
-
-    def check_expected_link(self, url):
-        with allure.step(f'Check url is present: {url}'):
-            return Wait(self.driver, self.timeout).until(
-                ec.url_to_be(url), message=f"Can't find element by locator {url}")
-
-    def wait_changed_url(self, url):
-        with allure.step(f'Wait until url: {url} will be changed.'):
-            Wait(self.driver, self.timeout).until(
-                ec.url_changes(url), message=f"Url: {url} has not been changed!!!")
-            self.get_current_url()
