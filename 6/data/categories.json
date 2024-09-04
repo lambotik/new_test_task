@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Incorrect status code: 500",
+      "children" : [ {
+        "name" : "test_updating_resource_by_id_1000",
+        "uid" : "192fd8c2c928b3ca",
+        "parentUid" : "db277d22f5ee0d9feb50e7f8cdc2250d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725467654228,
+          "stop" : 1725467654387,
+          "duration" : 159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1000" ]
+      }, {
+        "name" : "test_updating_resource_by_id_-1",
+        "uid" : "a45b4e5ed163a7c9",
+        "parentUid" : "db277d22f5ee0d9feb50e7f8cdc2250d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725467654605,
+          "stop" : 1725467654786,
+          "duration" : 181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-1" ]
+      } ],
+      "uid" : "db277d22f5ee0d9feb50e7f8cdc2250d"
+    }, {
+      "name" : "AssertionError: Result is not equal expected value",
+      "children" : [ {
+        "name" : "test_updating_resource_by_id_99",
+        "uid" : "d6637127614676dd",
+        "parentUid" : "eac86bbafedf046c6aeabf682ad8bd58",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725467654423,
+          "stop" : 1725467654598,
+          "duration" : 175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'99'" ]
+      } ],
+      "uid" : "eac86bbafedf046c6aeabf682ad8bd58"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=128.0.6613.113)\nStacktrace:\n#0 0x55f2279088da <unknown>\n#1 0x55f2275d6e50 <unknown>\n#2 0x55f2275bee20 <unknown>\n#3 0x55f2275beb0d <unknown>\n#4 0x55f2275bcb11 <unknown>\n#5 0x55f2275bd31f <unknown>\n#6 0x55f2275cce3b <unknown>\n#7 0x55f2275e3204 <unknown>\n#8 0x55f2275e874b <unknown>\n#9 0x55f2275bda2e <unknown>\n#10 0x55f2275e3059 <unknown>\n#11 0x55f22766988f <unknown>\n#12 0x55f22764b233 <unknown>\n#13 0x55f227619093 <unknown>\n#14 0x55f22761a09e <unknown>\n#15 0x55f2278cfb3b <unknown>\n#16 0x55f2278d3af1 <unknown>\n#17 0x55f2278bb705 <unknown>\n#18 0x55f2278d4662 <unknown>\n#19 0x55f2278a08df <unknown>\n#20 0x55f2278f76d8 <unknown>\n#21 0x55f2278f78a2 <unknown>\n#22 0x55f2279076cc <unknown>\n#23 0x7f2b2da94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_positive_login",
+        "uid" : "43eaa900e2aa5103",
+        "parentUid" : "3e0d4191a391264d8a17812ca9f2463d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725467655838,
+          "stop" : 1725467655838,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_negative_login",
+        "uid" : "78672c4c83ad9eb4",
+        "parentUid" : "3e0d4191a391264d8a17812ca9f2463d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725468019215,
+          "stop" : 1725468019215,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e0d4191a391264d8a17812ca9f2463d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
