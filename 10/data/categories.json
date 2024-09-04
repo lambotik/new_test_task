@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Incorrect status code: 500",
+      "children" : [ {
+        "name" : "test_updating_resource_by_id_1000",
+        "uid" : "12110ae1a4c00862",
+        "parentUid" : "db277d22f5ee0d9feb50e7f8cdc2250d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725468754873,
+          "stop" : 1725468754930,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1000" ]
+      }, {
+        "name" : "test_updating_resource_by_id_-1",
+        "uid" : "69144acbba8080b2",
+        "parentUid" : "db277d22f5ee0d9feb50e7f8cdc2250d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725468755019,
+          "stop" : 1725468755077,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-1" ]
+      } ],
+      "uid" : "db277d22f5ee0d9feb50e7f8cdc2250d"
+    }, {
+      "name" : "AssertionError: Result is not equal expected value",
+      "children" : [ {
+        "name" : "test_updating_resource_by_id_99",
+        "uid" : "777277a749ff6d14",
+        "parentUid" : "eac86bbafedf046c6aeabf682ad8bd58",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725468754969,
+          "stop" : 1725468755012,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'99'" ]
+      } ],
+      "uid" : "eac86bbafedf046c6aeabf682ad8bd58"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

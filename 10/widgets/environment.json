@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "9b8a46e5d4ddfb1e8da33cfc2cf1d6c0c0afd880" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Added some ui tests" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "lambotik1988@gmail.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2024-09-04 19:48:13 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "128.0.6613.113" ],
+  "name" : "CHROME_VERSION"
+}, {
+  "values" : [ "https://lambotik.github.io/new_test_task" ],
+  "name" : "URL"
+} ]
